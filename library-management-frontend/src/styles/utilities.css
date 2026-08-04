@@ -1,0 +1,73 @@
+/* ==========================================================
+   Utility Classes
+========================================================== */
+
+.bg-uni-blue {
+
+    background: var(--uni-blue);
+
+}
+
+.text-uni-blue {
+
+    color: var(--uni-blue);
+
+}
+
+.card-soft-shadow {
+
+    border: none;
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow-md);
+
+}
+
+.icon-circle {
+
+    width: 55px;
+
+    height: 55px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.cursor-pointer {
+
+    cursor: pointer;
+
+}
+
+.transition {
+
+    transition: var(--transition);
+
+}
+
+.rounded-xl {
+
+    border-radius: var(--radius-lg);
+
+}
+
+.shadow-soft {
+
+    box-shadow: var(--shadow-md);
+
+}
+
+.text-muted-small {
+
+    color: var(--text-light);
+
+    font-size: .90rem;
+
+}
